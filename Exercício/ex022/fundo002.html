@@ -3,41 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testes de imagem de fundo</title>
+    <title>Personalização dos fundos</title>
     <style>
         body{
-            background-image: url('imagens/wallpaper002.jpg');
+            background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+            background-size: 100px 100px;
+            background-repeat: repeat-y; /*de cima*/
+            /*background-repeat: repeat-x; lado*/ 
+            /*background-repeat: repeat; padrão*/ 
+            /*background-repeat: no-repeat-; imagem inteira*/ 
         }
-        div.quadrado {
-            
-            display: inline-block; /*para deixar os quadrados de lado*/
-            border: 1px solid black; /*3 quadrado um de baixo do outro*/
-            width: 400px;   
-            height: 400px;
-            border-radius: 10px; /*curvatura*/
-            background-color: lightgray;
-        } 
-        div#q1 {
-            background-image: linear-gradient(to top, red, white);
-        }
-        div#q2{
-background-image: linear-gradient(to bottom, yellow, red);
-        }
-        div#q3{
-background-image: url('imagens/pattern001.png');
-        }
+      
     </style>
 </head>
 <body>
-    <div class="quadrado" id="q1">
-
-    </div>
-
-    <div class="quadrado" id="q2">
-
-    </div>
-
-    <div class="quadrado" id="q3">
+   
 
 
     </div>
