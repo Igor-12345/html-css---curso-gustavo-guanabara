@@ -1,0 +1,23 @@
+Ao usar a propriedade background-repeat nas configurações de folha de estilo, qual valor configurado vai mostrar as imagens de fundo empilhadas, uma em cima da outra, verticalmente?
+ background-repeat: repeat-y;
+
+Ao usar repositórios locais e remotos, ganhamos algumas vantagens que facilitam nossa vida, exceto:
+ Instalar gerenciadores de conteúdo com bancos de dados sem limite
+
+Ao usar a shorthand para simplificar as configurações de imagens de fundo, a ordem correta das propriedades deverá ser:
+ background-color, background-image, background-position, background-repeat, background-attachment
+
+O primeiro passo para centralizar completamente um elemento dentro do outro (vertical e horizontal) é configurar um posicionamento especial do item que está mais internamente, usando a declaração:
+position-absolute
+
+Se colocarmos uma imagem de fundo no body e o conteúdo for maior do que a janela do navegador, o site deverá ter uma rolagem vertical. Qual configuração devemos colocar no elemento body para que o fundo não siga a rolagem da tela, ficando fixo?
+ background-attachment: fixed;
+
+Para criar um efeito de cores degradê no fundo de um elemento HTML, usamos a propriedade _____ das CSS em conjunto com a função _____. Qual dos itens abaixo apresenta os termos que preenchem as lacunas corretamente na ordem certa?
+ background-image / linear-gradient()
+Qual é o nome que damos ao efeito visual que acontece quando percebemos que as coisas que estão mais perto de nós se deslocam de forma diferente das que estão mais distantes?
+parallax
+
+A propriedade background-size aceita alguns valores literais para adaptar o tamanho da imagem ao fundo do elemento. Da lista a seguir, qual é o único valor que não será aceito na propriedade background-size?
+full
+
